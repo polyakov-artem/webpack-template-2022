@@ -1,0 +1,13 @@
+extends ../../common/pug/page-template
+
+block title
+  title Ссылки
+
+block content
+  body.links__main
+    svg.logo
+      use(xlink:href="#logo")
+
+    img(src=require('~assets/images/img-2.png'))
+
+    script(src=require('~src/app.js'))

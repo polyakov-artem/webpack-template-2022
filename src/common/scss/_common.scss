@@ -1,0 +1,12 @@
+@use '~node-modules/sass-rem' as rem;
+@use "sass:math";
+
+@import '~scss/_vars';
+
+body {
+  font-family: $font-family-montserrat;
+  font-size: rem.convert(14px);
+  line-height: math.div(24,14);
+  color: $dark;
+  background-color: #fff;
+}

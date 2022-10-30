@@ -1,0 +1,31 @@
+// Fonts
+$font-family-montserrat: 'Montserrat', Helvetica, Arial, sans-serif;
+
+// Colors
+$dark: rgb(31, 32, 65);
+
+// Grid
+
+$columns: 12;
+$gutter-width: 40px;
+
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+$breakpoints: (
+  xs: 0,
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl
+);
+
+$max-widths: (
+  xs: 1200,
+);
+
+$gutters: (
+  xs: $gutter-width
+);
